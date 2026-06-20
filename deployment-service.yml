@@ -15,9 +15,9 @@ spec:
     spec:
       containers:
       - name: tetris
-        image: shaikmustafa/dm
+        image: shaikmustafa/mytetrisgame:v1
         ports:
-        - containerPort: 80   # Use port 3000
+        - containerPort: 3000   # Use port 3000
 
 ---
 apiVersion: v1
